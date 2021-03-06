@@ -69,8 +69,8 @@
             "type": "securestring"
         },
          "valheimServerPublic": {
-            "type": "bool"
-             "defaultValue": true
+            "type": "string"
+             "defaultValue": "true"
         },
         "ports": {
             "type": "array",
