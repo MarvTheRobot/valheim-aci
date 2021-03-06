@@ -68,6 +68,10 @@
         "valheimServerPassword": {
             "type": "securestring"
         },
+         "valheimServerPublic": {
+            "type": "bool"
+             "defaultValue": true
+        },
         "ports": {
             "type": "array",
             "defaultValue": [
@@ -163,6 +167,10 @@
                                 {
                                     "name": "SERVER_NAME",
                                     "value": "[parameters('valheimServerName')]"
+                                },
+                                {
+                                    "name": "SERVER_PUBLIC",
+                                    "value": "[parameters('valheimServerPublic')]"
                                 },
                                 {
                                     "name": "WORLD_NAME",
